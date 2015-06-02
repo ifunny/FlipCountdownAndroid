@@ -3,12 +3,5 @@
 	<declare-styleable name="FlipCountdownView">
 		<attr name="flipTextColor" format="color|reference" />
 		<attr name="flipTextSize" format="dimension|reference" />
-		<attr name="flipBackgroundColor" format="color|reference" />
-		<attr name="flipEnableGradient" format="boolean|reference" />
-		<attr name="flipEnableOuterShadow" format="boolean|reference" />
-		<attr name="flipEnableInnerShadow" format="boolean|reference" />
-		<attr name="flipInnerShadowColor" format="color|reference" />
-		<attr name="flipOuterShadowColor" format="color|reference" />
-		<attr name="flipMiddleColor" format="color|reference" />
 	</declare-styleable>
 </resources>
