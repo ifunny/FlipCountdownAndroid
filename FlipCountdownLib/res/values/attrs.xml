@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="FlipCountdownView">
-        <attr name="flipTextColor" format="color" />
-        <attr name="flipTextSize" format="dimension" />
-        <attr name="flipBackgroundColor" format="color" />
-        <attr name="flipEnableGradient" format="boolean" />
-        <attr name="flipEnableOuterShadow" format="boolean" />
-        <attr name="flipEnableInnerShadow" format="boolean" />
-        <attr name="flipInnerShadowColor" format="color" />
-        <attr name="flipOuterShadowColor" format="color" />
-        <attr name="flipMiddleColor" format="color" />
-    </declare-styleable>
+	<declare-styleable name="FlipCountdownView">
+		<attr name="flipTextColor" format="color|reference" />
+		<attr name="flipTextSize" format="dimension|reference" />
+		<attr name="flipBackgroundColor" format="color|reference" />
+		<attr name="flipEnableGradient" format="boolean|reference" />
+		<attr name="flipEnableOuterShadow" format="boolean|reference" />
+		<attr name="flipEnableInnerShadow" format="boolean|reference" />
+		<attr name="flipInnerShadowColor" format="color|reference" />
+		<attr name="flipOuterShadowColor" format="color|reference" />
+		<attr name="flipMiddleColor" format="color|reference" />
+	</declare-styleable>
 </resources>
