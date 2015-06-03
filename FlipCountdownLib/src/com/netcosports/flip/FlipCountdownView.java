@@ -143,7 +143,7 @@ public class FlipCountdownView extends View {
 			float widthText = mPaint.measureText(text);
 			canvas.drawText(text,
 					(getMeasuredWidth() - widthText) / 2,
-					(getMeasuredHeight() + mTextHeight) / 2,
+					(getMeasuredHeight() + mTextHeight) / 2 - 2,
 					mPaint
 			);
 			canvas.restore();
@@ -185,7 +185,7 @@ public class FlipCountdownView extends View {
 			float widthText = mPaint.measureText(text);
 			canvas.drawText(text,
 					(getMeasuredWidth() - widthText) / 2,
-					(getMeasuredHeight() + mTextHeight) / 2,
+					(getMeasuredHeight() + mTextHeight) / 2 - 2,
 					mPaint
 			);
 			canvas.restore();
